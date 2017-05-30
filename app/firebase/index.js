@@ -2,10 +2,12 @@ import firebase from 'firebase';
 
 try {
   var config = {
-    apiKey: "AIzaSyD_9fsTH8TiSdhYGD_4mzGbzwDxA7vW5w0",
-    authDomain: "mead-todo-app-23821.firebaseapp.com",
-    databaseURL: "https://mead-todo-app-23821.firebaseio.com",
-    storageBucket: "mead-todo-app-23821.appspot.com",
+    apiKey: "AIzaSyBfm1rye9yESxV1XegFyvWKkyc52jumfwY",
+    authDomain: "cjb-react-todo.firebaseapp.com",
+    databaseURL: "https://cjb-react-todo.firebaseio.com",
+    projectId: "cjb-react-todo",
+    storageBucket: "cjb-react-todo.appspot.com",
+    messagingSenderId: "422250541662"
   };
 
   firebase.initializeApp(config);
